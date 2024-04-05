@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Ebook</title>
+	<style type="text/css">
+        *{
+            margin-left: 0px;
+        }
+        html, body, .container-fluid {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+		#row{
+			height: 60px;
+			width: 100%;
+			background-color: #308CCC;
+			line-height: 60px;
+			color: white;
+		}
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+		#row label{
+			font-size: 25px;
+			margin: 0 2%;
+		}
+		#row a{
+			float: right;
+			line-height: 50px;
+			padding: 5px;
+			font-size: 20px;
+			margin-right: 10px ;
+			color: #3e2c5f;
+			transition: all .9s;
+		}
+		#row a:hover{
+			float: right;
+			line-height: 50px;
+			padding: 5px;
+			font-size: 20px;
+			margin-right: 10px ;
+			color: white;
+			transition: all .5s;
+		}
+        .nav {
+            height: 60px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+        .nav ul{
+            display: flex;
+            justify-content: right;
+        }
+        .nav ul li{
+            list-style: none;
+            float: right;
+            margin-right: 40px;
+            line-height: 50px;
+          
+        }
+        #r{
+            background-color: gray; 
+            padding:12px;
+            border-radius: 5px;
+            width: auto;
+            min-height: 120px;
+            min-width: 100px;
+        }
+        .card{
+            background-color: white;
+            border: solid blue;
+            border-radius: 10px;
+            max-width: 24rem;
+            margin-left: auto;
+            margin-right: auto;
+           }
+           .bcat{
+            padding: 10px;
+            border-bottom: solid blue ;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-direction: column;
+        
+           }
+           .btn{
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+           }
+         .books{
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+         }
+
+         .footer{
+            display: flex;
+            justify-content: center;
+            min-height: auto;
+            padding-bottom: 10px;
+            background-color: #04344F;
+            color: azure;
+         }
+         .flink ul{
+            padding-left: 0;
+         }
+       .flink ul li{
+        list-style: none;
+        padding-left: 0;
+        text-decoration: none;
+       } 
+       .flink ul li a{
+        text-decoration: none;
+       }
+       .subfooter{
+        background-color: #001521;
+        color:rgb(190, 190, 190);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
+        
+       
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid" id="row">
+		<div class="row1">
+			<div class="col-sm-4">
+				<label>X-COMPANY</label>
+				
+			</div>
+			<div class="col-sm-8">
+				<a href="#"><i class="fa fa-facebook-square"></i></a>
+				<a href="#"><i class="fa fa-whatsapp"></i></a>
+				<a href="#"><i class="fa fa-twitter-square"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-phone-square"></i></a>
+				<a href="#"><i class="fa fa-linkedin-square"></i></a>
+				
+			</div>
+
+		</div>
+        
+		
+	</div>
+    <div class="nav">
+        <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Cantact Us</a></li>
+         <li><a href="#">Login</a></li>
+        </ul>
+         
+     </div>
+       
+     <section class="books">
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="bcat">
+                   <span>Science book</span>
+                   <span>5</span>
+                </div>
+                <div class="btn">
+                  <a href="#">read more  <i class="fa fa-arrow-right" style="font-size: x-small;"></i></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="bcat">
+                   <span>Science book</span>
+                   <span>5</span>
+                </div>
+                <div class="btn">
+                  <a href="#">read more <i class="fa fa-arrow-right" style="font-size: x-small;"></i></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="bcat">
+                   <span>Science book</span>
+                   <span>5</span>
+                </div>
+                <div class="btn">
+                  <a href="#">read more <i class="fa fa-arrow-right" style="font-size: x-small;"></i></a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="bcat">
+                   <span>Science book</span>
+                   <span>5</span>
+                </div>
+                <div class="btn">
+                  <a href="#">read more <i class="fa fa-arrow-right" style="font-size: x-small;"></i></a>
+                </div>
+              </div>
+        </div>
+     </section>
+     <section class="footer">
+        <div class="col-sm-4">
+           <h3>X-COMPANY</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, libero. 
+            Possimus ad architecto deserunt aliquam deleniti perferendis odio,
+             molestias similique repellendus id repellat harum necessitatibus. 
+             Debitis dolor maiores eaque quos!</p>
+        </div>
+        <div class="col-sm-4">
+           <div class="flink">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Cantact Us</a></li>
+                <li><a href="#">Login</a></li>
+               </ul>
+           </div>
+        </div>
+        <div class="col-sm-4">
+           <h3>Make Sugestion</h3>
+           <form class="form-inline">
+            <div class="form-group">
+            <i class="fa fa-envelope"></i>
+            <input type="text" name="" placeholder="Enter Email" class="form-control"><br><br>
+        </div>
+        <div class="form-group">
+            <i class="fa fa-pencil"></i>
+            <textarea name="" placeholder="Enter Username" class="form-control"> </textarea>
+        </div><br><br>
+        <input type="submit" name="" value="Send" class="btn btn-success">
+        </form>
+        </div>
+     </section>
+      <section class="subfooter">
+         <span>&copy; copy right x-company | alright reserved</span>
+      </section>  
+        
+        </div>
+       
+</body>
+</html>
